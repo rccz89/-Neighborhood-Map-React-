@@ -68,9 +68,10 @@ body {
 }
 
 .search-area {
-  border-radius: 5px;
+  border-radius: 20px;
   position: absolute;
   max-height: 50%;
+  max-width: 80%;
   overflow: auto;
   left: 0.5%;
   top: 6%;
