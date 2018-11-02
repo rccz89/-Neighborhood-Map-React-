@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Wynwood Kitchen & Bar",
+    "type": "Restaurant",
+    "latitude":  25.801265,
+    "longitude": -80.199319
+  },
+  {
+    "name": "KUSH",
+    "type": "Restaurant",
+    "latitude": 25.795788,
+    "longitude": -80.194702
+  },
+  {
+    "name": "Prohibition Restaurant and Speakeasy",
+    "type": "Restaurant",
+    "latitude": 25.808398,
+    "longitude": -80.195388
+  },
+  {
+    "name": "Freshii",
+    "type": "Restaurant",
+    "latitude": 25.79969,
+    "longitude":-80.199316
+  },
+  {
+    "name": "4 Midtown",
+    "type": "Restaurant",
+    "latitude": 25.807959,
+    "longitude": -80.192551
+  },
+  {
+    "name": "Le Chick",
+    "type": "Restaurant",
+    "latitude": 25.79997,
+    "longitude": -80.200473
+  }
+  ]
