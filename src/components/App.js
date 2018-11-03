@@ -340,16 +340,17 @@ class App extends Component {
   }
 }
 
-export default App;
-
-
-function loadMapJS(src) {
+function loadMapJS(url) {
   var ref = window.document.getElementsByTagName("script")[0];
   var script = window.document.createElement("script");
-  script.src = src;
+  script.src = url;
   script.async = true;
+  script.defer = true;
+  ref.parentNode.insertBefore(script, ref)
   script.onerror = function() {
-    document.write("Google Maps can't be loaded");
+    alert("Error loading map! Check the URL!");
   };
-  ref.parentNode.insertBefore(script, ref);
+  
 }
+
+export default App;
